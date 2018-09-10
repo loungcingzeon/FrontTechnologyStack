@@ -1,0 +1,1 @@
+### 2-3 express+mongodb#### Express+mongodb开发web后台接口```jsx harmony    Express开发web接口        非关系型数据库mongodb        使用nodejs的mongoose模块链接和操作mongodb```#### Express```jsx harmony    基于nodejs, 快速、开放、极简的web开发框架                npm install express --save 安装express                web:`http://www.expressjs.com.cn/`                04.43```
