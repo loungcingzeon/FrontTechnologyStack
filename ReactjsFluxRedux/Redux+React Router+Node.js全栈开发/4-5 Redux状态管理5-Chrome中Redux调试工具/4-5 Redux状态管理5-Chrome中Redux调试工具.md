@@ -1,0 +1,1 @@
+#### 4-5 Redux状态管理5-Chrome中Redux调试工具#### chrome 搜索 redux 安装```jsx harmony    新建store 的时候判断 widnow.devToolesExtension        使用compose 结合thunk和window.devToolsExtension        调试窗的 redux选项卡，实时看到state```

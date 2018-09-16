@@ -1,0 +1,1 @@
+#### 4-2 Redux状态管理2-Redux 如何和React一起用#### 手动连接，老赵怎么管理独立团呢```jsx harmony        把 store.dispatch方法传递给组件，内部可以调用修改状态        Subscribe 订阅 render 函数，每次修改都重新渲染        Redux 相关内容，移到单独的文件index.redux.js单独管理```

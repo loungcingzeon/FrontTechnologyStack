@@ -1,0 +1,1 @@
+#### 4-7 Redux状态管理7-使用 React-redux(Connect可以用装饰器的方法来书写)```jsx harmony    ```

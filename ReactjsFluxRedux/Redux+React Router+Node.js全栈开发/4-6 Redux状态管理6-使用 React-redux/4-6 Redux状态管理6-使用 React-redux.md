@@ -1,0 +1,1 @@
+#### 4-6 Redux状态管理6-使用 React-redux#### 老赵能力用很麻烦， 娄了方便管理，使用魏和疝来负责链接```jsx harmony    npm install react-redux --save        忘记subscribe，记住rducer， action和dispatch即可        React-redux提供Provider和connect两个接口来链接    ```#### React-redux具体使用```jsx harmony    Provider组件在应用最外层，传入store即可，只用一次        Connect 负责从外部获取组件需要的参数        Connect 可以用装饰器的方式写        ```

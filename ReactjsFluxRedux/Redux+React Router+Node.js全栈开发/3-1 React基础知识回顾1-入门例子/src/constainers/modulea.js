@@ -1,0 +1,1 @@
+export const name = 'imooc';export function sayHelloA(){    console.log('hello rocks!');}export default function test(){    console.log('hello imooc 深圳');}
