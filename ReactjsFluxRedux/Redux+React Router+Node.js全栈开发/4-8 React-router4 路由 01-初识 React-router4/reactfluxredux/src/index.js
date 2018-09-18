@@ -1,5 +1,5 @@
-import React, {Fragment} from 'react';
-import { render } from 'react-dom';
+import React, {PureComponent, Fragment} from 'react';
+import ReactDOM from 'react-dom';
 
 // Redux start
 import { createStore, applyMiddleware, compose } from 'redux';
@@ -34,7 +34,7 @@ const Qibinglian = () => {
   return <h2>骑兵连</h2>
 }
 
-render(
+ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
 
