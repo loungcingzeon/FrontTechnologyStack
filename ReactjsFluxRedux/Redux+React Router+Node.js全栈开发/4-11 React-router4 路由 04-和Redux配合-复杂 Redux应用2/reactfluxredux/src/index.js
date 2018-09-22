@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PureComponent, Fragment} from 'react';
 import { render } from 'react-dom';
 
 // Redux start
@@ -11,7 +11,7 @@ import Dashboard from './Login/Dashboard';
 // Redux end
 
 // Router-dom start
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Redirect, Switch } from 'react-router-dom';
 // Router-dom end
 // 调试工具 redux
 const reduxDevtools = window.devToolsExtension ? window.devToolsExtension(): () => {};

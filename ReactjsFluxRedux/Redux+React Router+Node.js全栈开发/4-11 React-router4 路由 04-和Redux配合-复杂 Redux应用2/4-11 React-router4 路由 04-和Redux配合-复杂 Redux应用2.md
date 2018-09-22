@@ -1,0 +1,1 @@
+#### 4-11 React-router4 路由 04-和Redux配合-复杂 Redux应用2#### 和redux 配合```jsx harmony    复杂 redux 应用，多个 reducer, 用 combinerReducers 合并        Redirect 组件 跳转        Switch只渲染一个子Route组件 ```

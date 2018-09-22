@@ -1,0 +1,1 @@
+import React, { PureComponent } from 'react';/** * */class Auth extends PureComponent{  constructor(props){    super(props);  }  render(){    return <h2>Auth page</h2>  }}export default  Auth;

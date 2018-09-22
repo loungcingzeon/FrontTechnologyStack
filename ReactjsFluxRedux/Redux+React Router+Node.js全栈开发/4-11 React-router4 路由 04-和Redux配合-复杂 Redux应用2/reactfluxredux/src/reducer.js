@@ -1,0 +1,1 @@
+// 合并所有 reducer 并且返回import { combineReducers } from 'redux';import { counter } from './store/index.redux';import { auth } from './Login/Auth.redux';export default combineReducers({  counter,  auth,});

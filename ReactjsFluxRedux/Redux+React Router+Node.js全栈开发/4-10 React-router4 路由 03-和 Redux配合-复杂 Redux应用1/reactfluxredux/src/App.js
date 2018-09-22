@@ -25,7 +25,7 @@ class App extends PureComponent{
   render(){
     return (
       <Fragment>
-        <h1>现在有机枪 {this.props.counter} 把</h1>
+        <h1>现在有机枪 {this.props.num} 把</h1>
         <Button onClick={this.props.addGun}>申请武器</Button>
         <Button onClick={this.props.removeGun}>上交武器</Button>
         <Button onClick={this.props.addGunAsync}>拖两天再给</Button>
