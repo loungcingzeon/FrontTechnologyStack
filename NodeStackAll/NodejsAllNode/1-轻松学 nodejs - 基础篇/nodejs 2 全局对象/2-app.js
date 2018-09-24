@@ -1,0 +1,1 @@
+console.log(__dirname);   // 输出当前的目录、的目录  app.jsconsole.log(__filename);  // 输了当前的文件/** * require * exports */

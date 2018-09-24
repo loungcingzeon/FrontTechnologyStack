@@ -5,13 +5,20 @@ import { render } from 'react-dom';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
+// Router-dom start
+import {
+  BrowserRouter,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+
 import reducers from './reducer';
 import Auth from './Login/Auth';
 import Dashboard from './Login/Dashboard';
 // Redux end
 
-// Router-dom start
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+
 // Router-dom end
 // 调试工具 redux
 const reduxDevtools = window.devToolsExtension ? window.devToolsExtension(): () => {};

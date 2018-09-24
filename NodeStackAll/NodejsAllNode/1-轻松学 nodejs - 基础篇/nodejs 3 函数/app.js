@@ -1,0 +1,1 @@
+// 有名函数function sayHi(){  console.log('Hi');}// 执行的函数sayHi();  // Hi// 匿名函数，就是没有名字的函数const sayBye = function(name){  console.log('Bye', name);};sayBye(); // Bye// 回调函数function callFunction(fun, name){  fun(name);}// 定义一个函数callFunction(sayBye, 'rails365'); // Bye rails365

@@ -1,0 +1,1 @@
+let server = require('./server');let router = require('./router');let handler = require('./handler');let handle = {};handle['/'] = handler.home;handle['/home'] = handler.home;handle['/review'] = handler.review;handle['/api/v1/records'] = handler.api_records;// 执行startServerserver.startServer(router.route, handle);

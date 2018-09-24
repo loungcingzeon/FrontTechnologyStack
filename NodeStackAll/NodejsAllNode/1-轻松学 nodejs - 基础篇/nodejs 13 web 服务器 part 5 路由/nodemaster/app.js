@@ -1,0 +1,1 @@
+let server = require('./server');// 执行startServerserver.startServer();

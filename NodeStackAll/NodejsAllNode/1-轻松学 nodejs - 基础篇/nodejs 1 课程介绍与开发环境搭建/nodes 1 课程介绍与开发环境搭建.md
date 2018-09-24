@@ -1,0 +1,1 @@
+#### nodes 1 课程介绍与开发环境搭建```jsx harmony    1. javascript基础        2. html 基础        3. 命令行基础            JavaScript         |    C++ Node.js V8         |    Machine code    ```

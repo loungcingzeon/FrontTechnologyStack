@@ -1,0 +1,1 @@
+// 定时器/*setTimeout(() => {  console.log('3 seconds have passed');  // 3 seconds have passed}, 3000);*/let time = 0;const timer = setInterval(() => {  time += 2;  console.log(time + "2 seconds have passed");  if(time > 5){    clearInterval(timer);  }}, 2000);/** * conds have passed * 42 seconds have passed * 62 seconds have passed */
